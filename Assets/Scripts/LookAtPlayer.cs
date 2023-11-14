@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class LookAtPlayer : MonoBehaviour
 {
-    public Transform Player;
+    private Transform Player;
+    private GameObject PlayerGO;
     void Start()
     {
-        
+        PlayerGO = GameObject.FindGameObjectWithTag("Player");
+        Player = PlayerGO.GetComponent<Transform>();
     }
 
     // Update is called once per frame

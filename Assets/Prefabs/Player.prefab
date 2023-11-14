@@ -227,7 +227,7 @@ GameObject:
   - component: {fileID: 580034732142171254}
   m_Layer: 0
   m_Name: First Person Camera
-  m_TagString: MainCamera
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -680,7 +680,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   distanceThreshold: 0.15
-  isGrounded: 1
+  isGrounded: 0
 --- !u!1 &6501829521511491995
 GameObject:
   m_ObjectHideFlags: 0
